@@ -213,7 +213,9 @@ header {
 .postlist {
 	list-style: none;
 	padding: 0;
+/*
 	padding-left: 1.5rem;
+*/
 }
 .postlist-item {
 	display: flex;
@@ -225,10 +227,15 @@ header {
 .postlist-item:before {
 	display: inline-block;
 	pointer-events: none;
+/*
 	content: "" counter(start-from, decimal-leading-zero) ". ";
+*/
 	line-height: 100%;
+/*
 	text-align: right;
+
 	margin-left: -1.5rem;
+*/
 }
 .postlist-date,
 .postlist-item:before {
