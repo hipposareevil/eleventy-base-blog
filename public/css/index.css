@@ -285,3 +285,19 @@ header {
 	margin-right: 1em;
 }
 
+/* hero header */
+#heroBanner {
+  z-index:-2;
+  height: 3em;
+  background:url('http://willprogramforfood.com/largeHeaderImages/rotate.php') top center no-repeat;
+  max-width: 100%;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+// Mini hero for posts
+#postHeader {
+   height: 2em;
+   background:url('http://willprogramforfood.com/largeHeaderImages/rotate.php') top center no-repeat;
+}
+
