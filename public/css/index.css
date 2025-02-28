@@ -123,7 +123,7 @@ main :first-child {
 }
 
 header {
-	border-bottom: 1px dashed var(--color-gray-20);
+    border-bottom: 1.3px gray dashed;
 }
 
 .links-nextprev {
@@ -131,14 +131,13 @@ header {
 	justify-content: space-between;
 	gap: .5em 1em;
 	list-style: "";
-	border-top: 1px dashed var(--color-gray-20);
+	border-top: 1.3px gray dashed;
 	padding: 1em 0;
 }
 
 .testimg {
-    background: url("/img/dotted-border.png") bottom left repeat-x;
+  background: url("/img/dotted-border.png") bottom left repeat-x;
 }
-
 
 .links-nextprev > * {
 	flex-grow: 1;

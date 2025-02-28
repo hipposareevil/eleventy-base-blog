@@ -14,11 +14,10 @@ layout: layouts/base.njk
 	{%- endfor %}
 </ul>
 
+
 {{ content | safe }}
 
-<div class="testimg">
-test
-</div>
+<div class="testimg"/>
 
 {%- if collections.posts %}
 {%- set previousPost = collections.posts | getPreviousCollectionItem %}
