@@ -1,6 +1,6 @@
 ---js
 const eleventyNavigation = {
-	key: "Photos",
+	key: "Phone Photos",
 	order: 4,
     url: "http://hipposareevil.tumblr.com"
 };

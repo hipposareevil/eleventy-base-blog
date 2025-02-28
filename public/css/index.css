@@ -201,6 +201,7 @@ header {
 }
 .nav-item {
 	display: inline-block;
+        font: 19px 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 .nav-item a[href]:not(:hover) {
 	text-decoration: none;
